@@ -13,8 +13,10 @@ resumePath: './markdown/resume-template.md'
 showHeader: true
 headerInfo:
   # 头像，相对本配置文件路径，或者 URL
-  photo: 'https://avatars1.githubusercontent.com/u/22113206?s=460&v=4'
+  # photo: 'https://avatars1.githubusercontent.com/u/22113206?s=460&v=4'
   # photo: './markdown/avatar.jpeg'
+
+photo:'https://unsplash.com/photos/a-squirrel-eating-a-nut-in-a-field-of-daisies-igYIeewfnOs'
   name: 'xxx'
   phone: '110'
   email: 'xx@xx.com'
