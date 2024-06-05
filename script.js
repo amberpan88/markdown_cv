@@ -7,7 +7,7 @@ fetch('info.json')
         basicInfoContainer.innerHTML = `
             <div class="basic-info-item">电话：${personalInfo.phone}</div>
             <div class="basic-info-item">邮箱：${personalInfo.email}</div>
-            <div class="basic-info-item">个人网站：${personalInfo.wechat}</div>
+            <div class="basic-info-item">微信：${personalInfo.wechat}</div>
         `;
 
         // 获取Markdown内容并转换为HTML
