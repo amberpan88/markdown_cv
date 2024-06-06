@@ -11,7 +11,7 @@ fetch('info.json')
         `;
 
         // 获取Markdown内容并转换为HTML
-        fetch('cv-template.md') // 需要修改为具体的文件路径
+        fetch('cv.md') // 需要修改为具体的文件路径
             .then(response => response.text())
             .then(md => {
                 const mdParser = new window.markdownit();
