@@ -9,6 +9,13 @@ fetch('info.json')
             <div class="basic-info-item">求职状态：${personalInfo.status}</div>
             <div class="basic-info-item">年龄：${personalInfo.age}</div>
         `;
+        fetch('cv.md') // 需要修改为具体的文件路径
+            .then(response => response.text())
+            .then(md => {
+                const mdParser = new window.markdownit();
+                const html = mdParser.render(md);
+                document.getElementById('resume-content').innerHTML = html;
+            });
     })
 
 fetch('info.json')
