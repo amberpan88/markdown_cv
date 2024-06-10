@@ -9,6 +9,12 @@ fetch('info.json')
             <div class="basic-info-item">求职状态：${personalInfo.status}</div>
             <div class="basic-info-item">年龄：${personalInfo.age}</div>
         `;
+        basicInfoContainer.innerHTML = `
+            <div class="basic-info-item">电话：${personalInfo.phone}</div>
+            <div class="basic-info-item">邮箱：${personalInfo.email}</div>
+            <div class="basic-info-item">微信：${personalInfo.wechat}</div>
+        `;
+
         // 获取Markdown内容并转换为HTML
         fetch('cv.md') // 需要修改为具体的文件路径
             .then(response => response.text())
@@ -19,8 +25,7 @@ fetch('info.json')
             });
     })
     .catch(error => console.error('Error fetching personal info:', error));
-    
-fetch('info.json')
+    fetch('info.json')
     .then(response => response.json())
     .then(personalInfo => {
         // 设置标题和基本信息
