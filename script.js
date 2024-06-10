@@ -17,6 +17,8 @@ fetch('info.json')
                 document.getElementById('resume-content').innerHTML = html;
             });
     })
+    .catch(error => console.error('Error fetching personal info:', error));
+
 
 fetch('info.json')
     .then(response => response.json())
