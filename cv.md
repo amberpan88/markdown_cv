@@ -9,10 +9,10 @@
 
 ## 专业技能
 
-- 熟练使用Excel、Word和Powerpoint办公软件，能使用Excel进行数据展示、分析和总结的能力；
+- 熟练使用Excel、Word和Powerpoint办公软件，能审核、排版和归档文件，做好文件管理；
+- 熟练使用石墨文档、腾讯文档、XMind等团队协作工具，能做好会议记录；
+- 熟悉markdown语法，能使用Notion、Obsidian、思源笔记、Logseq、Scrivener等笔记软件，能整理归纳资料库；
 - 口语流利，能以英语作为日常语言；熟练使用英语、普通话和粤语；
-- 熟练使用石墨文档、腾讯文档、XMind等团队协作工具，能提高团队合作效率；
-- 熟悉markdown语法，能使用Notion、Obsidian、思源笔记、Logseq等笔记软件，能整理知识库。
 
 # 意向岗位
 - 文秘行政岗
